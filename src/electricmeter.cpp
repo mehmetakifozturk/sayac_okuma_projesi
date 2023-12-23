@@ -155,7 +155,7 @@ while(Serial2.available()){
 
  }
    Serial2.end();
-   if(datasize>=2643){
+   if(datasize>=1000){
    Serial.println("data size="+String(datasize));
     return(data);
     
